@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	  background-attachment: fixed;
+	  background-color: #1d3557;
+	  color: white;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #457b9d;
+    border-radius: 25px;
+  }
+  
+  .profile img {
+    max-width: 120px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+    background-color: red;
+  }
+  
+  .profile h1 {
+    margin: 0px 0;
+  }
+  
+  .profile p{
+    margin: 0px;
+  }
+  
+  .portfolio {
+    text-align: left;
+    background-color: #456b9d;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .portfolio h2{
+    text-align: center;
+    
+  }
+  
+  .card {
+    background-color: #63a4a7;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+    display: flex;
+  }
+  .card:hover{
+    background-color: #1d3557;
+  }
+  .card i{
+    font-size: 30px;
+  }
+  
+  .card p{
+    margin: 0;
+  }
+  .image{
+    width: 100px;
+    padding: 5px;
+  }
+  .image:hover{
+    zoom: 100px;
+  }
+  tr:hover{
+    background-color: #f1faee;
+    color: black;
+    border-radius: 100px;
+  }
+  .footer{
+    background-color: #63a4a7;
+    padding: 8px;
+    margin: 0px;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .profile img {
+      margin: 0 auto 10px auto;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="profile">
+    <br />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/536px-Presiden_Sukarno.jpg">
+    <h1><marquee direction="">Ir.Soekarno</marquee></h1>
+  </div>
+  <div class="portfolio">
+   <h2>Tentang Soekarno</h2>
+    <div class="card">
+      <p>Dr. Ir. H. Soekarno adalah seorang politikus yang berperan penting dalam Revolusi Nasional Indonesia dan menjabat sebagai Presiden Republik Indonesia pertama sejak 1945 hingga 1967. Bersama Mohammad Hatta, ia memproklamasikan Kemerdekaan Indonesia pada tanggal 17 Agustus 1945</p>
+    </div>
+    
+    <div class="card">
+     <table border="0" width="100%">
+       <tr>
+         <td align="right">Nama :</td>
+         <td>Dr.(H.C.)Ir.H.Soekarno</td>
+       </tr>
+       <tr>
+         <td align="right">Tanggal Lahir :</td>
+         <td>06 Juni 1901</td>
+       </tr>
+       <tr>
+         <td align="right">KMeninggal :</td>
+         <td>21 Juni 1970</td>
+       </tr>
+       <tr>
+         <td align="right">Sebab Kematian :</td>
+         <td>Gangguan Ginjal</td>
+       </tr>
+       <tr>
+         <td align="right">Istri :</td>
+         <td>Oetari, Inggit Garnasih, Fatmawati, Hartini, Kartini Mannopo, Saliku Maesaroh, Ratna Sari Dewi, Haryati, Yurike Sanger, Heldi Djafar</td>
+       </tr>
+     </table>
+    </div>
+    <div class="card">
+       <p>Selain sebagai proklamator, Soekarno juga menjabat sebagai Presiden Republik Indonesia pertama sejak 1945 hingga 1967, dengan masa pemerintahannya dikenal juga sebagai Orde Lama. Pada pertengahan tahun 1960-an, di masa-masa akhir jabatan Soekarno, Indonesia mengalami stagnasi produksi, kemiskinan dan kelaparan yang merajalela, infrastruktur yang tidak terurus, dan hiperinflasi mencapai hampir 600 persen.
+
+Pada 11 Maret 1966, Soekarno menandatangani Surat Perintah yang dikenal sebagai Supersemar yang menugaskan Letnan Jenderal Soeharto untuk mengamankan dan menjaga keamanan negara dan institusi kepresidenan. Supersemar menjadi landasan  Letnan Jenderal Soeharto untuk membubarkan Partai Komunis Indonesia (PKI) dan mengganti anggota-anggotanya yang duduk di parlemen.Setelah pertanggungjawabannya ditolak Majelis Permusyawaratan Rakyat Sementara (MPRS) pada sidang umum ke empat tahun 1967, Soekarno diberhentikan dari jabatannya sebagai presiden pada Sidang Istimewa</p>
+    </div>
+  </div>
+  <div class="portfolio">
+    <h2>Gallery</h2>
+    <img class="image" src="https://cms.disway.id/uploads/0fe5306c531e673fc2067c4508afdbb4.jpg" alt="" />
+    <img class="image" src="https://asset-2.tstatic.net/papua/foto/bank/images/presiden-soekarno-kanan-berpeci.jpg" alt="" />
+    <img class="image" src="https://cdn1-production-images-kly.akamaized.net/BAgqzqfVnaRpWix5cdShx1Gkmj4=/800x450/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/860312/original/077598500_1429802501-4.jpg" alt=""/>
+    <img class="image" src="https://ikom.umsida.ac.id/wp-content/uploads/2022/06/jiddan-2.jpg" alt="" />
+    <img class="image" src="https://radarseluma.disway.id/upload/129e273c2407873a18dcba8f9177f94e.jpg" alt="" />
+    <img class="image" src="https://www.indeksmedia.id/wp-content/uploads/2023/06/Presiden-Republik-Indonesia-Ke-1-Soekarno.jpg" alt="" />
+    </div>
+  </div>
+  <div class="footer">
+    <p>copyright©by Ashaa</p>
+  </div>
+</div>
+</body>
+<script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
+</html>
